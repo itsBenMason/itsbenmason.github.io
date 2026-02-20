@@ -94,129 +94,156 @@ title: Privacy Policy - What Did You Say?!
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    line-height: 1.8;
-    color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background: #fafafa;
     min-height: 100vh;
-    padding: 20px;
+    padding: 0;
   }
 
   .policy-container {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
+    background: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   .policy-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 30px;
+    padding: 32px 40px;
+    border-bottom: 1px solid #e5e7eb;
+    background: #ffffff;
   }
 
   .back-link {
-    display: inline-block;
-    color: white;
+    display: inline-flex;
+    align-items: center;
+    color: #6b7280;
     text-decoration: none;
-    margin-bottom: 20px;
-    opacity: 0.9;
-    transition: opacity 0.3s ease;
+    font-size: 0.9375rem;
+    margin-bottom: 24px;
+    transition: color 0.2s;
+    font-weight: 500;
   }
 
   .back-link:hover {
-    opacity: 1;
-    text-decoration: underline;
+    color: #111827;
   }
 
   .policy-header h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #111827;
   }
 
   .policy-content {
-    padding: 40px;
+    flex: 1;
+    padding: 48px 40px;
   }
 
   .intro {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
-    color: #555;
+    font-size: 1.0625rem;
+    margin-bottom: 48px;
+    color: #374151;
+    line-height: 1.7;
   }
 
   .policy-section {
-    margin-bottom: 40px;
+    margin-bottom: 48px;
   }
 
   .policy-section h2 {
-    color: #667eea;
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    margin-top: 30px;
+    color: #111827;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    margin-top: 0;
     font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
   }
 
   .policy-section p {
-    margin-bottom: 15px;
-    color: #444;
+    margin-bottom: 16px;
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.7;
   }
 
   .policy-section ul {
-    margin-left: 30px;
-    margin-bottom: 15px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+    padding-left: 0;
   }
 
   .policy-section li {
-    margin-bottom: 8px;
-    color: #444;
+    margin-bottom: 10px;
+    color: #374151;
+    line-height: 1.7;
+    list-style-position: outside;
   }
 
   .policy-section a {
-    color: #667eea;
+    color: #111827;
     text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.3s ease;
+    border-bottom: 1px solid #d1d5db;
+    transition: border-color 0.2s;
+    font-weight: 500;
   }
 
   .policy-section a:hover {
-    border-bottom-color: #667eea;
+    border-bottom-color: #111827;
   }
 
   .policy-footer {
-    margin-top: 50px;
-    padding-top: 20px;
+    margin-top: 64px;
+    padding-top: 32px;
+    border-top: 1px solid #e5e7eb;
   }
 
   .policy-footer hr {
-    border: none;
-    border-top: 1px solid #e9ecef;
-    margin-bottom: 20px;
+    display: none;
   }
 
   .generator-note {
-    font-size: 0.9rem;
-    color: #999;
+    font-size: 0.8125rem;
+    color: #9ca3af;
     text-align: center;
+    line-height: 1.6;
   }
 
   .generator-note a {
-    color: #667eea;
+    color: #6b7280;
     text-decoration: none;
+    border-bottom: 1px solid #d1d5db;
+    transition: border-color 0.2s;
   }
 
-  @media (max-width: 600px) {
+  .generator-note a:hover {
+    border-bottom-color: #6b7280;
+  }
+
+  @media (max-width: 768px) {
+    .policy-header {
+      padding: 24px;
+    }
+
     .policy-header h1 {
-      font-size: 2rem;
+      font-size: 1.875rem;
     }
 
     .policy-content {
-      padding: 25px;
+      padding: 32px 24px;
+    }
+
+    .policy-section {
+      margin-bottom: 40px;
     }
 
     .policy-section h2 {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
   }
 </style>
